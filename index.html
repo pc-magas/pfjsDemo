@@ -13,6 +13,8 @@
     <script>
         $( document ).ready(function(){
            $("#pdf").pdf();
+           $("#pdf2").pdf();
+           $("#pdf3").pdf();
         });
     </script>
 </head>
@@ -20,7 +22,9 @@
     <main class="container-fluid">
         <div class="row">
             <div class="col"><h1 class="text-center" >Hello</h1></div>
-            <div id="pdf" class="col bg-secondary" style="height:300px;overflow-y:scroll;" data-pdf="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"></div>
+            <div id="pdf" class="w-100 bg-secondary" style="height:300px;overflow-y:scroll;" data-pdf="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"></div>
+            <div id="pdf2" class="w-100 bg-secondary" style="height:300px;overflow-y:scroll;" data-pdf="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"></div>
+            <div id="pdf3" class="w-100 bg-secondary" style="height:300px;overflow-y:scroll;" data-pdf="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"></div>
         </div>
     </main>
 </body>
