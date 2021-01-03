@@ -1,7 +1,7 @@
 # pfjsDemo
 A sample demo using pdfjs. It is intented fro showcase instead of a full-fledged library
 
-# Have a look on toy your browser:
+# Have a look on to your browser:
 
 Visit https://pc-magas.github.io/pfjsDemo/ or https://codepen.io/pc-magas/pen/gOwezdo
 
