@@ -74,3 +74,12 @@ function renderPage(pdf,container,renderCompleteCallback,pageNumber)
         });
     });
 }
+
+(function ( $ ) {
+ 
+    $.fn.pdf = function() {
+        loadPdf(this);
+        return this;
+    };
+ 
+}( jQuery ));

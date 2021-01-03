@@ -12,7 +12,7 @@
    <script src="pdf_viewer.js"></script>
     <script>
         $( document ).ready(function(){
-            loadPdf("#pdf");
+           $("#pdf").pdf();
         });
     </script>
 </head>
@@ -20,7 +20,7 @@
     <main class="container-fluid">
         <div class="row">
             <div class="col"><h1 class="text-center" >Hello</h1></div>
-            <div id="pdf" class="bg-secondary" data-pdf="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"></div>
+            <div id="pdf" class="col bg-secondary" data-pdf="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"></div>
         </div>
     </main>
 </body>
